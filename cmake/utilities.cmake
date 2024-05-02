@@ -143,7 +143,7 @@ function(add_test_ execname srcname)
       COMMAND_EXPAND_LISTS)
   endif()
   export_target(${execname})
-endfunction(add_test)
+endfunction(add_test_)
 
 function(add_exec execname srcname)
   add_test_nogtest(${execname} ${srcname})
