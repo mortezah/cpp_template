@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "dependencies": [
+    {
+      "name": "cgal",
+      "platform": "(windows & x64) | (linux & x64)"
+    },
+    {
+      "name": "eigen3",
+      "platform": "(windows & x64) | (linux & x64)"
+    }
+  ],
+  "builtin-baseline": "f56238700757aa05975e41fa835739c632810f3f",
+  "overrides": [
+    {
+      "name": "cgal",
+      "version": "5.6"
+    },
+    {
+      "name": "eigen3",
+      "version": "3.4.0#2"
+    }
+  ]
+}
